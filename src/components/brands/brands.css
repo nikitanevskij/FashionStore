@@ -1,3 +1,11 @@
 .brands {
-  margin-bottom: 63px;
+  margin-bottom: 120px;
+  background-color: var(--yellow);
+  padding: 58px 0;
+}
+
+.brands__list {
+  display: flex;
+  column-gap: 120px;
+  justify-content: center;
 }
