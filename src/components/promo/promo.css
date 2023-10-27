@@ -99,12 +99,3 @@
   left: -30px;
   background-image: url("../../assets/star.svg");
 }
-
-.promo__img::before {
-  content: "";
-  position: absolute;
-  width: 58px;
-  height: 58px;
-  right: 200px;
-  background-image: url("../../assets/star.svg");
-}

@@ -1,0 +1,47 @@
+.card {
+  position: relative;
+  /* cursor: pointer; */
+}
+
+.card:hover .card__img {
+  opacity: 0.8;
+}
+
+.card__link {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.card__img {
+  margin-bottom: 28px;
+  border-radius: 20px;
+}
+
+.card__body {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.card__title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.56;
+  letter-spacing: -1.28px;
+}
+
+.card__mute {
+  color: #7f7f7f;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.08;
+  letter-spacing: -0.96px;
+}
